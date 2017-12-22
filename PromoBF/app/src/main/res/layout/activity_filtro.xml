@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kelwin.primeiro.promobf.Activity.FiltroActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+
+            android:layout_height="290dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="Brinquedos"
+                    android:id="@+id/cb_brinquedos"/>
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="Livros"
+                    android:id="@+id/cb_livros"/>
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="Games"
+                    android:id="@+id/cb_games"/>
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="Informatica e Smartphones"
+                    android:id="@+id/cb_informatica"/>
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="Tv, Áudio e Home Theater"
+                    android:id="@+id/cb_tv"/>
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="Filmes, Séries e Música"
+                    android:id="@+id/cb_filmes"/>
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="Moda, Beleza e Perfumaria"
+                    android:id="@+id/cb_moda"/>
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="Eletromésticos"
+                    android:id="@+id/cb_eletrodomesticos"/>
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Móveis e Decoração"
+                    android:textSize="20dp"
+                    android:id="@+id/cb_moveis"/>
+
+
+
+
+            </LinearLayout>
+
+
+
+        </ScrollView>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+
+            android:padding="4dp"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_weight="3"
+                android:layout_height="40dp"
+                android:text="CANCELAR"
+                android:textColor="#FFFFFF"
+                android:background="#000000"
+                android:onClick="cancelar"
+
+                />
+            <View   android:id="@+id/firstDivider2"
+                android:layout_height="fill_parent"
+                android:layout_width="1dp"
+                android:background="#FFFFFF"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_weight="3"
+                android:layout_height="40dp"
+                android:text="FILTRAR"
+                android:textColor="#FFFFFF"
+                android:background="#000000"
+                android:onClick="filtrar"
+
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

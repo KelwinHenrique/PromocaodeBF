@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "920155867091",
+    "firebase_url": "https://promobf-953fe.firebaseio.com",
+    "project_id": "promobf-953fe",
+    "storage_bucket": "promobf-953fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920155867091:android:02312e78f570f473",
+        "android_client_info": {
+          "package_name": "kelwin.primeiro.promobf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920155867091-ia88636d8d9hus9qk6j1a7sshqg07rk1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kelwin.primeiro.promobf",
+            "certificate_hash": "41738015f6000ef2ab36b868341f64a65ebe67ed"
+          }
+        },
+        {
+          "client_id": "920155867091-rf33tviggspkgbi8d0en3dg7krk5uvtg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE8a6tuckuRGBowIL_qJYFOzYzQLuMmnY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "920155867091-rf33tviggspkgbi8d0en3dg7krk5uvtg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

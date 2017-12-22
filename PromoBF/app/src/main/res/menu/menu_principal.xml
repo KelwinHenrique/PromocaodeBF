@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item android:id = "@+id/item_filtro"
+        android:title="Filtar"
+        app:showAsAction = "ifRoom"
+        android:icon="@drawable/ic_filtrar"
+        />
+    <item android:id = "@+id/item_info"
+        android:title="Informações"
+        app:showAsAction = "ifRoom"
+        android:icon="@drawable/ic_info"
+        />
+
+</menu>

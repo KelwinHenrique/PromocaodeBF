@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kelwin.primeiro.promobf.Activity.InfoActivity">
+
+
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Olá, bem vindo ao Promoções de Black Friday\n"
+
+                android:textSize="30dp"/>
+
+            <TextView
+                android:textAlignment="gravity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas dicas para você usar me da melhor maneira possível.\n"
+
+                android:textSize="20dp"/>
+
+            <TextView
+                android:textAlignment="gravity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1º Muitas promoções acabam rápido d+. Então não fique muito bravo com o neguinho aqui. Basta marcar a opção dentro da promoção: 'PROMOÇÃO ENCERRADA'.Que tentaremos remove-lá o mais rápido possível\n"
+
+                android:textSize="20dp"/>
+
+            <TextView
+                android:textAlignment="gravity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2º Você pode usar o filtro localizado na parte superior da tela do lado esquerdo, para que você encontre com mais facilidade o que está procurando.\n"
+
+                android:textSize="20dp"/>
+
+            <TextView
+                android:textAlignment="gravity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3º Se gostou de uma promoção e acha que ela é realmente Black dê 5 estrelas, assim você ajuda outros a encontra-lá.\n"
+
+                android:textSize="20dp"/>
+
+
+            <TextView
+                android:textAlignment="gravity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Por enquanto, isso é tudo. Se gostou do app, classifique-o na Play Store e se tiver alguma sugestão ou encontrou algum bug, comente lá, que tentaremos arrumar.\n"
+
+                android:textSize="20dp"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
